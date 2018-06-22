@@ -22,6 +22,11 @@
             "type": "table",
             "fields": [
               {
+                "name": "thumbnail",
+                "type": "image",
+                "label": "Thumbnail"
+              },
+              {
                 "name": "id",
                 "type": "text",
                 "label": "ID"
@@ -35,8 +40,13 @@
                 "name": "calories",
                 "type": "text",
                 "label": "Calories"
+              },
+              {
+                "name": "work",
+                "type": "text",
+                "label": "Phone #",
+                "dataPath": "phone"
               }
-      
             ]
           }
         },
@@ -59,6 +69,35 @@
               "name": "calories",
               "label": "Calories",
               "type": "text"
+            },
+            {
+              "name": "thumbnail",
+              "label": "Thumbnail",
+              "type": "text"
+            },
+            {
+              "name": "work",
+              "label": "Work Phone",
+              "type": "text",
+              "dataPath": "phone"
+            },
+            {
+              "name": "mobile",
+              "label": "Mobile Phone",
+              "type": "text",
+              "dataPath": "phone"
+            },
+            {
+              "name": "numbers",
+              "label": "Numbers",
+              "type": "array",
+              "arrayType": "text"
+            },
+            {
+              "name": "friends",
+              "label": "Friends",
+              "type": "array",
+              "arrayType": "object"
             }
           ]
         },
@@ -74,6 +113,36 @@
               "name": "calories",
               "label": "Calories",
               "type": "text"
+            },
+            {
+              "name": "thumbnail",
+              "label": "Thumbnail",
+              "type": "text"
+            },
+            {
+              "name": "work",
+              "label": "Work Phone",
+              "type": "text",
+              "dataPath": "phone"
+            },
+
+            {
+              "name": "mobile",
+              "label": "Mobile Phone",
+              "type": "text",
+              "dataPath": "phone"
+            },
+            {
+              "name": "numbers",
+              "label": "Numbers",
+              "type": "array",
+              "arrayType": "text"
+            },
+            {
+              "name": "friends",
+              "label": "Friends",
+              "type": "array",
+              "arrayType": "object"
             }
           ]
         },
