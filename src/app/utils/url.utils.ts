@@ -28,6 +28,9 @@ export class UrlUtils {
 
     public getParsedUrl(url, data, dataPath) {
         const fieldName = this.extractIdFieldName(url);
+
+        console.log('detectedURL: ', location.host);
+        
         const fieldValue = this.dataPathUtils.getFieldValueInPath(fieldName, dataPath, data);
         if (fieldValue) {
             url = this.getUrlWithReplacedId(url, fieldName, fieldValue);
