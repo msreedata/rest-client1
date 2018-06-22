@@ -3,8 +3,8 @@
   "pages": [
     {
       "default": true,
-      "name": "Foods",
-      "id": "Foods",
+      "Name": "Foods",
+      "Id": "Foods",
       "description": "An example of RESTool configuration file usage with a simple mocking server",
       "methods": {
         "getAll": {
