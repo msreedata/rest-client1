@@ -4,7 +4,7 @@
     {
       "default": true,
       "name": "Foods",
-      "id": "foods",
+      "id": "Foods",
       "description": "An example of RESTool configuration file usage with a simple mocking server",
       "methods": {
         "getAll": {
@@ -22,17 +22,17 @@
             "type": "table",
             "fields": [
               {
-                "name": "id",
+                "name": "Id",
                 "type": "text",
                 "label": "ID"
               },
               {
-                "name": "name",
+                "name": "Name",
                 "type": "text",
                 "label": "Name"
               },
               {
-                "name": "calories",
+                "name": "Calories",
                 "type": "text",
                 "label": "Calories"
               }
@@ -41,22 +41,22 @@
           }
         },
         "getSingle": {
-          "url": "https://lindoce02:5001/api/v1/Foods/:id",
+          "url": "https://lindoce02:5001/api/v1/Foods/:Id",
           "dataPath": null,
           "queryParams": [],
           "requestHeaders": {}
         },
         "put": {
-          "url": "https://lindoce02:5001/api/v1/Foods/:id",
+          "url": "https://lindoce02:5001/api/v1/Foods/:Id",
           "actualMethod": null,
           "fields": [
             {
-              "name": "name",
+              "name": "Name",
               "label": "Name",
               "type": "text"
             },
             {
-              "name": "calories",
+              "name": "Calories",
               "label": "Calories",
               "type": "text"
             }
@@ -66,19 +66,19 @@
           "url": "https://lindoce02:5001/api/v1/Foods",
           "fields": [
             {
-              "name": "name",
+              "name": "Name",
               "label": "Name",
               "type": "text"
             },
             {
-              "name": "calories",
+              "name": "Calories",
               "label": "Calories",
               "type": "text"
             }
           ]
         },
         "delete": {
-          "url": "https://lindoce02:5001/api/v1/Foods/:id"
+          "url": "https://lindoce02:5001/api/v1/Foods/:Id"
         }
       }
     }
