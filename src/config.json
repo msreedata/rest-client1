@@ -48,8 +48,7 @@
         },
         "put": {
           "url": "https://lindoce02:5001/api/v1/Foods/:Id",
-          "dataPath": "value",
-          "actualMethod": null,
+          "actualMethod": "dd",
           "fields": [
             {
               "name": "Name",
