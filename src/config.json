@@ -10,7 +10,7 @@
         "getAll": {
           "label": "Get Food list",
           "url": "https://lindoce02:5001/api/v1/Foods",
-          "dataPath": null,
+          "dataPath": "value",
           "queryParams": [
             {
               "name": "q",
@@ -42,7 +42,7 @@
         },
         "getSingle": {
           "url": "https://lindoce02:5001/api/v1/Foods/:Id",
-          "dataPath": null,
+          "dataPath": "value",
           "queryParams": [],
           "requestHeaders": {}
         },
