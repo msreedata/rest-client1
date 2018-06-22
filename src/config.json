@@ -64,6 +64,7 @@
         },
         "post": {
           "url": "https://lindoce02:5001/api/v1/Foods",
+          "dataPath": "value",
           "fields": [
             {
               "name": "Name",
