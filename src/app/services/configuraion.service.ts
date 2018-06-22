@@ -14,6 +14,8 @@ export class ConfigurationService {
     constructor(private http: Http) {
         this.configuration = null;
         this.configStream = this.http.get(this.filePath).map(res => res.json());
+
+        console.log('myStream', this.configStream);
     }
 
     getConfiguration() {
